@@ -1,6 +1,5 @@
-import os
-
-from maya import cmds
+from . import mainUI
 
 
-
+def show():
+    mainUI.show()
